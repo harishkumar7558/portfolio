@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 export default function About() {
-  const skills = ["React.js", "Tailwind CSS", "Framer Motion", "UI/UX Design", "Next.js", "Node.js"];
+  const skills = ["React.js", "Tailwind CSS", "TypeScript", "Node.js","Express", "Mongodb", "MSSql","Postgresql",];
 
   return (
     <section id="about" className="py-24 px-6 md:px-12 bg-gray-50 min-h-[70vh] flex flex-col justify-center">

@@ -12,7 +12,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-gray-500 text-lg md:text-xl mb-4 pointer-events-auto"
+          className="text-gray-500 text-xs sm:text-lg md:text-xl mb-4 pointer-events-auto"
         >
           👋 , my name is <span className="font-semibold text-gray-800">Harish Kumar</span> and I am a freelance
         </motion.p>
@@ -43,7 +43,7 @@ export default function Hero() {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-        className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[800px] z-20 pointer-events-none flex justify-center"
+        className="absolute top-15 sm:top-33 sm:bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[800px] z-20 pointer-events-none flex justify-center"
       >
         <img
           src={imgs}
@@ -59,13 +59,13 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
-        className="absolute bottom-8 left-0 w-full flex flex-col md:flex-row justify-between items-center px-8 md:px-12 z-30 pointer-events-none gap-6 md:gap-0"
+        className="absolute -bottom-4 sm:bottom-8 left-0 w-full flex flex-col md:flex-row justify-between items-center px-8 md:px-12 z-30 pointer-events-none gap-6 md:gap-0"
       >
         <div className="text-gray-500 text-lg md:text-xl pointer-events-auto text-center md:text-left">
           based in Tamilnadu, India.
         </div>
 
-        <div className="flex gap-2 pointer-events-auto shadow-sm">
+        <div className="flex sm:flex-row flex-col gap-2 pointer-events-auto shadow-sm">
           <Button className="bg-[#1a1a1a] hover:bg-black text-white rounded-none px-6 md:px-8 py-6 text-sm transition-colors">
             You need a developer
           </Button>
@@ -76,8 +76,8 @@ export default function Hero() {
 
         <div className="hidden lg:flex gap-6 opacity-40 grayscale pointer-events-auto items-center">
           <span className="text-sm font-bold font-serif italic">React</span>
-          <span className="text-sm font-bold tracking-widest uppercase">Tailwind</span>
-          <span className="text-sm font-bold uppercase">Shadcn</span>
+          <span className="text-sm font-bold tracking-widest uppercase">TypeScript </span>
+          <span className="text-sm font-bold uppercase">Postgresql</span>
         </div>
       </motion.div>
     </section>

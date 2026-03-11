@@ -34,9 +34,9 @@ export default function Contact() {
       <div className="mt-32 w-full flex flex-col md:flex-row justify-between items-center border-t border-gray-200 pt-8 text-sm font-medium text-gray-500">
         <p>© {new Date().getFullYear()} Harish Kumar. All rights reserved.</p>
         <div className="flex gap-6 mt-4 md:mt-0">
-          <a href="#" className="hover:text-black transition-colors">LinkedIn</a>
-          <a href="#" className="hover:text-black transition-colors">GitHub</a>
-          <a href="#" className="hover:text-black transition-colors">Twitter</a>
+          <a href="https://www.linkedin.com/in/harish-kumar-61b49327b" className="hover:text-black transition-colors">LinkedIn</a>
+          <a href="https://github.com/harishkumar7558" className="hover:text-black transition-colors">GitHub</a>
+          {/* <a href="#" className="hover:text-black transition-colors">Twitter</a> */}
         </div>
       </div>
     </section>
