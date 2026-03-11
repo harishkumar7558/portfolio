@@ -43,12 +43,12 @@ export default function Hero() {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-        className="absolute top-15 sm:top-33 sm:bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[800px] z-20 pointer-events-none flex justify-center"
+        className="absolute top-15 sm:top-33 sm:bottom-0 left-1/2 -translate-x-1/2 w-full  z-20 pointer-events-none flex justify-center shadow-2xl "
       >
         <img
           src={imgs}
           alt="Harish Profile"
-          className="w-auto h-[60vh] md:h-[75vh] object-contain object-bottom"
+          className="sm:w-auto h-[50vh] w-full mt-37 sm:mt-0 object-cover sm:h-[60vh] md:h-[75vh] sm:object-contain sm:object-bottom"
         />
       </motion.div>
 
@@ -59,17 +59,17 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
-        className="absolute -bottom-4 sm:bottom-8 left-0 w-full flex flex-col md:flex-row justify-between items-center px-8 md:px-12 z-30 pointer-events-none gap-6 md:gap-0"
+        className="absolute bottom-6 sm:bottom-8 left-0 w-full flex flex-col md:flex-row justify-between items-center px-8 md:px-12 z-30 pointer-events-none gap-6 md:gap-0"
       >
         <div className="text-gray-500 text-lg md:text-xl pointer-events-auto text-center md:text-left">
           based in Tamilnadu, India.
         </div>
 
-        <div className="flex sm:flex-row flex-col gap-2 pointer-events-auto shadow-sm">
-          <Button className="bg-[#1a1a1a] hover:bg-black text-white rounded-none px-6 md:px-8 py-6 text-sm transition-colors">
+        <div className="flex sm:flex-row flex-col gap-2 pointer-events-auto ">
+          <Button className="bg-[#1a1a1a] rounded-full hover:bg-black text-white  px-6 md:px-8 py-6 text-sm transition-colors">
             You need a developer
           </Button>
-          <Button variant="outline" className="bg-white/80 backdrop-blur-md border-[#1a1a1a] text-[#1a1a1a] hover:bg-gray-50 hover:text-pink-500 rounded-none px-6 md:px-8 py-6 text-sm transition-colors">
+          <Button variant="outline" className="bg-gray-500 backdrop-blur-md border-[#1a1a1a] text-[#1a1a1a] hover:bg-gray-900 rounded-full hover:text-pink-500  px-6 md:px-8 py-6 text-sm transition-colors">
             You need a designer
           </Button>
         </div>
