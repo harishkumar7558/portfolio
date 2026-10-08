@@ -66,11 +66,11 @@ export default function Hero() {
         </div>
 
         <div className="flex sm:flex-row flex-col gap-2 pointer-events-auto ">
-          <Button className="bg-[#1a1a1a] rounded-full hover:bg-black text-white  px-6 md:px-8 py-6 text-sm transition-colors">
-            You need a developer
+          <Button asChild className="bg-[#1a1a1a] rounded-full hover:bg-black text-white  px-6 md:px-8 py-6 text-sm transition-colors">
+            <a href="#contact">You need a developer</a>
           </Button>
-          <Button variant="outline" className="bg-gray-500 backdrop-blur-md border-[#1a1a1a] text-[#1a1a1a] hover:bg-gray-900 rounded-full hover:text-pink-500  px-6 md:px-8 py-6 text-sm transition-colors">
-            You need a designer
+          <Button asChild variant="outline" className="bg-white/90 backdrop-blur-md border-[#1a1a1a] text-[#1a1a1a] hover:bg-[#1a1a1a] rounded-full hover:text-pink-500  px-6 md:px-8 py-6 text-sm transition-colors">
+            <a href="#projects">You need a designer</a>
           </Button>
         </div>
 
