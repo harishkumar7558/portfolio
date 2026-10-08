@@ -43,7 +43,7 @@ export default function Hero() {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-        className="absolute top-15 sm:top-33 sm:bottom-0 left-1/2 -translate-x-1/2 w-full  z-20 pointer-events-none flex justify-center shadow-2xl "
+        className="absolute top-15 sm:top-45 sm:bottom-0 left-1/2 -translate-x-1/2 w-full  z-20 pointer-events-none flex justify-center shadow-2xl "
       >
         <img
           src={imgs}
